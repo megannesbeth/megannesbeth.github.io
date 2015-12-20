@@ -1,0 +1,53 @@
+body {
+margin: 0;
+padding: 0;
+}
+h1 {
+margin: 0;
+}
+
+h2 {
+margin: 0 0 0 0;
+}
+
+body {
+  color: rgb(66,50,66);
+  background: url('../images/back_shot.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+ #bio {background-color: rgb(237,237,223);
+  	width: 350 px;
+  	height: 100%; 
+  	padding: 20 20 20 20;
+  	margin: 0 200 0 800;
+  }
+
+#slogan {
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size: 30px;
+	color: 3EFFCC;
+    margin: 0 10 10 300;
+}
+
+h1
+	{color: rgb(255,111,104);
+	font-family: 'Rock Salt', cursive;
+	font-size: 50px;
+   	margin: 30 10 10 10;
+}
+
+	}
+
+p {
+	color: rgb(255,255,255);
+	font-size: 16px}
+.important {
+	font-size: 20px}
+}
+
+
+
