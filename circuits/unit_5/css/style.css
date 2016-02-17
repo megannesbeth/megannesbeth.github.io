@@ -1,0 +1,46 @@
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav{
+	border: 1px black solid;
+    padding: 20px;	
+	background-color: #E8C66A;
+}
+
+aside {
+	border: 1px black solid;
+    padding: 20px;
+	background-color: #FFC675;
+}
+
+article {
+	border: 1px black solid;
+    padding: 20px;
+	background-color: #E89C6C;
+}
+
+footer {
+	border: 1px black solid;
+    padding: 20px;
+	background-color: #FF957E;
+}
+
+div {
+	border: 1px black solid;
+    padding: 20px;
+	background-color: #FFE2B8
+}
+
+section {
+	border: 2px black solid;
+    padding: 20px;
+	background-color: #FFE2B8
+}
+
+.wrapper{
+    border: 3px black solid;
+    padding: 20px;
+}
