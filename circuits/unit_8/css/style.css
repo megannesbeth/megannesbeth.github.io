@@ -1,0 +1,138 @@
+body {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav{
+	border: 1px black solid;
+    padding: 20px;	
+	background-color: #E8C66A;
+}
+
+aside {
+	border: 1px black solid;
+    padding: 20px;
+	background-color: #FFC675;
+}
+
+article {
+	border: 1px black solid;
+    padding: 20px;
+	background-color: #E89C6C;
+}
+
+footer {
+	border: 1px black solid;
+    padding: 0;
+	background-color: #FF957E;
+}
+
+div {
+	border: 1px black solid;
+    padding: 20px;
+	background-color: #FFE2B8;
+}
+
+section {
+	border: 2% black solid;
+    padding: 6% auto;
+	background-color: #FFE2B8;
+    width: 92%;
+     margin: 0 auto;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 0;
+    padding: 0;
+    width: 100%
+}
+
+#left {
+    background-color: violet;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    padding: 0;
+    float: left;
+    width: 70%;
+}
+
+#right {
+    background-color: pink;
+    border: 0 none;
+    padding: 0;
+    float: left;  
+    width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.wrapper{
+    border: 3px black solid;
+    padding: 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+   aside {
+    border: 0;
+    padding: 0;
+    width: 100%;
+}
+
+   #left {
+    float: none;
+    width: 100%;
+}
+   #right: {
+    float: left;
+    display: inline-block;
+    width: 100%;
+}
+    article {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    aside {
+    border: 0;
+    padding: 0;
+    width: auto;
+}
+
+    #two_column {
+    background-color: #FFB7CF;
+    border: 0;
+    padding: 0;
+    width: auto;
+}
+
+    #left {
+        float: none;
+    }
+
+     #right: {
+        width: auto;
+        float: none;
+}
+    article {
+        border: none;
+        padding: 0;
+        width: auto;
+        float: none;
+    }
+}
+
